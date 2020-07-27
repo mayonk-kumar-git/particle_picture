@@ -70,3 +70,15 @@ footer img {
   position: absolute;
   bottom: -2px;
 }
+
+
+@media screen and (max-width:500px)
+{
+  canvas{
+    height: 90vh;
+  }
+  footer {
+   font-size: 9px;
+   margin-bottom: 8px;
+  }
+}
